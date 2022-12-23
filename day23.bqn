@@ -42,8 +42,6 @@ System ← {𝕩
 { # part two
   x ← System@
   {𝕊𝕩:x.Step@}•_while_ ⊢ 1
-  •Show ≢x.b
-  •Show ≢x.CroppedBoard@
   •Show x.t
 }
 
